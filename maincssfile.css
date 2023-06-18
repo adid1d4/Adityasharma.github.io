@@ -342,6 +342,68 @@ font-size: 23px;
 
 }
 
+/*for phones*/
+@media(max-width: 502px){
+
+h1 {
+padding-top:20px;
+margin-left:10px;
+text-align:left;
+color: black;
+font-family: Poiret One;
+font-size: 40px;
+}
+
+h2 {
+color: black;
+font-family: Poiret One;
+font-size: 50px;
+}
+
+
+.niv {
+text-align: justify;
+margin-left: 10px;
+margin-right: 10px;
+font-size: 23px;
+color: black;
+}
+
+
+.container{
+	max-width: 70%;
+	margin:auto;
+}
+
+.footer{
+	width:100%;
+	margin:auto;
+	background-color: black;
+    padding: 20px 0;
+}
+
+.footer-col {
+  width: 100%;
+}
+
+.header {
+position: sticky;
+margin:auto;
+top: 0;
+font-weight: 900;
+background-color: black;
+padding: 10px 0px;
+height: 250px;
+width: 100%;
+color: black;
+font-family: Poiret One;
+opacity: 100;
+font-size: 23px;
+} 
+
+}
+
+
 
 
 
